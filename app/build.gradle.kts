@@ -78,3 +78,13 @@ dependencies {
     implementation("androidx.camera:camera-view:1.3.0")
     implementation("androidx.camera:camera-extensions:1.3.0")
 }
+
+allprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile::class).all {
+        kotlinOptions {
+            freeCompilerArgs += listOf(
+                "-opt-in=androidx.compose.material3.ExperimentalMaterial3Api"
+            )
+        }
+    }
+}
