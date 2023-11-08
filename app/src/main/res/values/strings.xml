@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CameraXDemo</string>
+
+    <!-- Main -->
+    <string name="no_photos">There are no photos yet!</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="take_photo">Take photo</string>
+    <string name="record_video">Record video</string>
+    <string name="video_capture_failed">Video capture is failed!</string>
+    <string name="video_capture_successful">Vide capture is successful!</string>
 </resources>
